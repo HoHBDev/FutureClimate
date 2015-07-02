@@ -4,7 +4,7 @@ function pfa($arr){
 		print_r($arr);
 	echo '</pre>';		
 }
-
+/*
 $ip=$_SERVER['REMOTE_ADDR']; 
 if ($ip != '37.153.208.146') { 
 echo '
@@ -36,8 +36,8 @@ echo '
 ';
 	exit;
 } 
-
-if ($_POST['filename'] != '' && !empty($_POST['filename'])){
+*/
+if (isset($_POST['filename']) && $_POST['filename'] != '' && !empty($_POST['filename'])){
 	
 
 
